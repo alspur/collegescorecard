@@ -5,7 +5,6 @@ library(readxl)
 
 # download data ####
 
-
 # download data dictionary xlsx
 data_dictionary_url <- "https://collegescorecard.ed.gov/assets/CollegeScorecardDataDictionary.xlsx"
 download.file(data_dictionary_url, "raw_data/data_dictionary.xlsx")
